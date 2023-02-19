@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOTEL CALIFORNIA</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="IMAGES/alifornia2.png" type="image/x-icon">
+</head>
+<body>
+    
+    <div class="fondo">
+
+        <div class="contenedor">
+
+            <form class="formulario">
+                <p class="reservas">RESERVAS / COTIZACIONES</p>
+                    <h4>Número de Días: <input type="text" class="inputs"  id="numeroDias" placeholder="Dias..."></h4>
+                    <h4>Número de Personas: <input type="text" class="inputs2" name="Numero de personas" id="numeroPersonas" placeholder="Personas..."></h4>
+                    <h4>Valor por Persona: <input type="text" class="inputs3" name="Valor por persona" id="valorPersonas" placeholder="Valor..."></h4>
+                    <h4 class="lavel">Sub Total: <label  id="subTotal">0</label> </h4>
+                    <h4 class="lavel">Descuento: <label id="descuento">0</label> </h4>
+                    <h4 class="lavel">Iva: <label id="iva">0</label> </h4>
+                    <h4 class="lavel">Pago Neto: <label id="pagoNeto">0</label> </h4>
+                    <p class="button">
+                        <button type="button" onclick="totalResultados()"id="boton">Cotizar</button>
+                    </p>
+            </form>
+        </div> 
+
+    </div>
+
+        
+    <script src="script.js"></script>
+</body>
+</html>
